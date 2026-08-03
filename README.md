@@ -1,6 +1,8 @@
 # ⚰️ LAZARUS — The Legacy Code Resurrector
 
 > Bring dead languages back to life. Built for **Port Mortem 2026 — Code Resurrection Hackathon**.
+>
+> **Created by [Suryandu Ganguly](https://github.com/suryandugy-glitch)** · 🔴 **[Live Demo](https://suryandugy-glitch.github.io/-LAZARUS-The-Legacy-Code-Resurrector/)**
 
 LAZARUS takes code written in **dead / legacy languages** — COBOL, Pascal, Visual Basic 6, and retro line-numbered BASIC — and *resurrects* it as modern, runnable **Python 3** or **JavaScript**, with line-by-line "Necromancer's Notes" explaining every transformation.
 
@@ -54,5 +56,9 @@ Each transpiler is a line-oriented parser + statement pattern-matcher that rebui
 An estimated **800 billion lines of COBOL** still run in production. Every legacy language here powers systems whose original authors are long gone. LAZARUS is a small, transparent, fully-offline take on the real problem of legacy modernization — showing its work on every line instead of being a black box.
 
 ---
+
+## 👤 Author
+
+**Suryandu Ganguly**
 
 *Built solo in one session for Port Mortem 2026.*
