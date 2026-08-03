@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LAZARUS — Legacy Code Resurrector</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="logo">
+    <span class="logo-icon">⚰️</span>
+    <div>
+      <h1>LAZARUS</h1>
+      <p class="tagline">The Legacy Code Resurrector — bring dead languages back to life</p>
+    </div>
+  </div>
+  <div class="header-right">
+    <span class="badge">Port Mortem 2026</span>
+  </div>
+</header>
+
+<main>
+  <section class="controls">
+    <div class="control-group">
+      <label for="srcLang">💀 Dead language</label>
+      <select id="srcLang">
+        <option value="cobol">COBOL (1959)</option>
+        <option value="pascal">Pascal (1970)</option>
+        <option value="vb6">Visual Basic 6 (1998)</option>
+        <option value="basic">Retro BASIC (1964)</option>
+      </select>
+    </div>
+
+    <div class="control-group">
+      <label for="dstLang">✨ Resurrect as</label>
+      <select id="dstLang">
+        <option value="python">Python 3</option>
+        <option value="javascript">JavaScript (ES2024)</option>
+      </select>
+    </div>
+
+    <div class="control-group">
+      <label for="sampleSel">📜 Sample corpse</label>
+      <select id="sampleSel">
+        <option value="">— choose a sample —</option>
+      </select>
+    </div>
+
+    <button id="resurrectBtn" class="resurrect-btn">⚡ RESURRECT</button>
+  </section>
+
+  <section class="panes">
+    <div class="pane">
+      <div class="pane-header grave">
+        <span>🪦 The Grave — paste dead code here</span>
+        <button class="mini-btn" id="clearBtn">Clear</button>
+      </div>
+      <textarea id="srcCode" spellcheck="false" placeholder="Paste COBOL, Pascal, VB6 or BASIC here… or pick a sample corpse above."></textarea>
+    </div>
+
+    <div class="pane">
+      <div class="pane-header alive">
+        <span>💚 Reborn — modern code</span>
+        <button class="mini-btn" id="copyBtn">Copy</button>
+      </div>
+      <pre id="dstCode" class="output"><code>// Resurrected code appears here…</code></pre>
+    </div>
+  </section>
+
+  <section class="explain-section">
+    <div class="pane-header scroll">
+      <span>📖 Necromancer's Notes — what was translated & why</span>
+    </div>
+    <div id="explanation" class="explanation">
+      <p class="muted">Line-by-line translation notes will appear here after resurrection.</p>
+    </div>
+  </section>
+
+  <section class="ai-section">
+    <details>
+      <summary>🧠 Optional: AI-assisted resurrection (local LLM via GPT4All API)</summary>
+      <div class="ai-body">
+        <p>If you run <a href="https://gpt4all.io" target="_blank">GPT4All</a> with its local API server enabled
+        (Settings → Enable Local API Server, default port 4891), LAZARUS can ask a local model to
+        refine the rule-based translation. 100% offline — no code leaves your machine.</p>
+        <div class="ai-controls">
+          <input type="text" id="aiUrl" value="http://localhost:4891/v1/chat/completions" />
+          <button id="aiBtn" class="mini-btn ai-btn">Refine with local AI</button>
+          <span id="aiStatus" class="ai-status"></span>
+        </div>
+      </div>
+    </details>
+  </section>
+</main>
+
+<footer>
+  <p>Built for <strong>Port Mortem 2026 — Code Resurrection Hackathon</strong> · rule-based transpiler, zero dependencies, runs entirely in your browser</p>
+</footer>
+
+<script src="js/samples.js"></script>
+<script src="js/cobol.js"></script>
+<script src="js/pascal.js"></script>
+<script src="js/vb6.js"></script>
+<script src="js/basic.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
