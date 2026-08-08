@@ -1,6 +1,6 @@
 # ⚰️ LAZARUS — The Legacy Code Resurrector
 
-> Bring dead languages back to life. Built for **Port Mortem 2026 — Code Resurrection Hackathon**.
+> Bring dead languages back to life. 
 >
 > **Created by [Suryandu Ganguly](https://github.com/suryandugy-glitch)** · 🔴 **[Live Demo](https://suryandugy-glitch.github.io/-LAZARUS-The-Legacy-Code-Resurrector/)**
 
