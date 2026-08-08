@@ -1,6 +1,6 @@
 # ⚰️ LAZARUS — The Legacy Code Resurrector
 
-> Bring dead languages back to life. 
+> Bring dead languages back to life.
 >
 > **Created by [Suryandu Ganguly](https://github.com/suryandugy-glitch)** · 🔴 **[Live Demo](https://suryandugy-glitch.github.io/-LAZARUS-The-Legacy-Code-Resurrector/)**
 
@@ -61,4 +61,4 @@ An estimated **800 billion lines of COBOL** still run in production. Every legac
 
 **Suryandu Ganguly**
 
-*Built solo in one session for Port Mortem 2026.*
+*Built solo in one session.*
